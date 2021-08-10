@@ -7570,6 +7570,7 @@ func (s *DescribeRegionsResponseBodyRegionsDdsRegionZones) SetZone(v []*Describe
 type DescribeRegionsResponseBodyRegionsDdsRegionZonesZone struct {
 	VpcEnabled *bool   `json:"VpcEnabled,omitempty" xml:"VpcEnabled,omitempty"`
 	ZoneName   *string `json:"ZoneName,omitempty" xml:"ZoneName,omitempty"`
+	ZoneId	   *string `json:"ZoneId,omitempty" xml:"ZoneId,omitempty"`
 }
 
 func (s DescribeRegionsResponseBodyRegionsDdsRegionZonesZone) String() string {
