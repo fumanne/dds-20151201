@@ -7591,6 +7591,12 @@ func (s *DescribeRegionsResponseBodyRegionsDdsRegionZonesZone) SetZoneName(v str
 	return s
 }
 
+func (s *DescribeRegionsResponseBodyRegionsDdsRegionZonesZone) SetZoneId(v string) *DescribeRegionsResponseBodyRegionsDdsRegionZonesZone {
+	s.ZoneId = &v
+	return s
+}
+
+
 type DescribeRegionsResponse struct {
 	Headers map[string]*string           `json:"headers,omitempty" xml:"headers,omitempty" require:"true"`
 	Body    *DescribeRegionsResponseBody `json:"body,omitempty" xml:"body,omitempty" require:"true"`
